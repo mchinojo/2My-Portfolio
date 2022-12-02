@@ -3,7 +3,7 @@
 }
 
 #topImage {
-  background-image: url(/day8/challenge/starter/images/topImage.png);
+  background-image: url(/day8Challenge/images/topImage.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 60px;
@@ -89,28 +89,28 @@ body {
 
 #firstApp {
   grid-area: firstApp;
-  background-image: url(/day8/challenge/starter/images/firstApp.png);
+  background-image: url(/day8Challenge/images/firstApp.png);
 
 }
 
 #secondApp {
   grid-area: secondApp;
-  background-image: url(/day8/challenge/starter/images/secondApp.png);
+  background-image: url(/day8Challenge/images/secondApp.png);
 }
 
 #thirdApp {
   grid-area: thirdApp;
-  background-image: url(/day8/challenge/starter/images/thirdApp.gif);
+  background-image: url(/day8Challenge/images/thirdApp.gif);
 }
 
 #fourthApp {
   grid-area: fourthApp;
-  background-image: url(/day8/challenge/starter/images/fourthApp.jpg);
+  background-image: url(/day8Challenge/images/fourthApp.jpg);
 }
 
 #fifthApp {
   grid-area: fifthApp;
-  background-image: url(/day8/challenge/starter/images/02-portfolio-1.jpg);
+  background-image: url(/day8Challenge/images/02-portfolio-1.jpg);
 }
 
 .subHeading {
@@ -134,7 +134,7 @@ body {
 }
 
 #flexPhoto {
-  background-image: url(/day8/challenge/starter/images/02-portfolio-3.jpg);
+  background-image: url(/day8Challenge/images/02-portfolio-2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
