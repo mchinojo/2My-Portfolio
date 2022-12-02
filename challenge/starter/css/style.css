@@ -1,0 +1,38 @@
+/* My name and avatar / nav */
+.nav {
+  display: flex;
+  background-color: #fbf7f4;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.myName,
+.sections {
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.sections {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sections a {
+  font-size: 100%;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 30px;
+}
+
+.myName {
+  width: 25%;
+  font-size: 100%;
+  font-family: 'Work Sans', sans-serif;
+  padding: 5px;
+}
+
+/* Main content */
