@@ -1,3 +1,18 @@
+:root {
+  --mainFont: 'Work Sans', sans-serif;
+}
+
+#topImage {
+  background-image: url(/day8/challenge/starter/images/topImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+}
+
+body {
+  margin: 0;
+}
+
 /* My name and avatar / nav */
 .nav {
   display: flex;
@@ -24,15 +39,138 @@
   font-size: 100%;
   padding: 10px;
   text-decoration: none;
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--mainFont);
   margin-left: 30px;
 }
 
 .myName {
   width: 25%;
   font-size: 100%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--mainFont);
   padding: 5px;
 }
 
-/* Main content */
+
+
+.heading {
+  font-family: var(--mainFont);
+  font-weight: 100;
+  font-size: 110%;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 30px;
+
+}
+
+/* Work content */
+
+#workContentGrid {
+  margin: 0 5%;
+  display: grid;
+  gap: 72px 24px;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "firstApp firstApp"
+    "secondApp thirdApp"
+    "fourthApp fifthApp";
+  margin-bottom: 100px;
+}
+
+.gridImages {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+
+}
+
+#firstApp {
+  grid-area: firstApp;
+  background-image: url(/day8/challenge/starter/images/firstApp.png);
+
+}
+
+#secondApp {
+  grid-area: secondApp;
+  background-image: url(/day8/challenge/starter/images/secondApp.png);
+}
+
+#thirdApp {
+  grid-area: thirdApp;
+  background-image: url(/day8/challenge/starter/images/thirdApp.gif);
+}
+
+#fourthApp {
+  grid-area: fourthApp;
+  background-image: url(/day8/challenge/starter/images/fourthApp.jpg);
+}
+
+#fifthApp {
+  grid-area: fifthApp;
+  background-image: url(/day8/challenge/starter/images/02-portfolio-1.jpg);
+}
+
+.subHeading {
+  display: grid;
+  align-content: end;
+  cursor: pointer;
+  position: relative;
+  top: 12%;
+  font-family: var(--mainFont);
+  font-size: 120%;
+  font-weight: 600;
+}
+
+/* About me content */
+#aboutContentFlex {
+  display: flex;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+#flexPhoto {
+  background-image: url(/day8/challenge/starter/images/02-portfolio-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  height: 300px;
+}
+
+#flexText {
+  font-family: var(--mainFont);
+  font-size: 100%;
+  font-weight: 300;
+  margin: 10px;
+  padding: 10px 50px;
+  width: 50%;
+}
+
+#contact {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+input {
+  width: 20%;
+  padding: 10px 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+
+button {
+  width: 10%;
+  padding: 12px 10px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
