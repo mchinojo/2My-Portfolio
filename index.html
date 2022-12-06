@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Connie H // Designer</title>
-  <link rel="stylesheet" href="css/styleCOPIA.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -16,7 +16,6 @@
 
 <body>
   <!-- Top image -->
-
   <div id="topImage">
   </div>
 
@@ -93,16 +92,33 @@
   <div class="heading">
     <h2>CONTACT ME</h2>
   </div>
-  <section id="contact">
-    <label for="fname"></label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    <br>
-    <label for="lname"></label>
-    <input type="text" id="lname" name="lastname" placeholder="Your email..">
-    <br>
-    <button type="submit"> Send</button>
-  </section>
+  <section id="contactContentFlex">
+    <div id="flexResume">
+      <a><img src="images/resume.png" alt="Resume background">
+      </a>
+    </div>
+    <div id="flexContactMe">
 
+      <form action="action_page.php">
+
+
+        <input type="text" id="yourName" name="yourName" placeholder="Your name..">
+
+        <input type="text" id="email" name="email" placeholder="Your email..">
+        <input type="text" id="subject" name="subject" placeholder="Subject">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.."></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+
+    </div>
+
+
+
+  </section>
 
 </body>
 

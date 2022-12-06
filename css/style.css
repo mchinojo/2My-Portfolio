@@ -142,7 +142,7 @@ a:active {
 #aboutContentFlex {
   display: flex;
   height: 400px;
-  margin: 0 5%;
+  margin: 0 auto;
   margin-bottom: 100px;
   gap: 72px 24px;
   align-items: center;
@@ -169,24 +169,73 @@ a:active {
   font-weight: 300;
 }
 
-#contact {
-  text-align: center;
-  bottom: 0;
+/* Contact me content */
+#contactContentFlex {
+  display: flex;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  gap: 72px 24px;
+  align-items: center;
+}
+
+#flexResume {
+  width: 50%;
+  height: 100%;
+}
+
+#flexResume img {
+  height: 100%;
   width: 100%;
-  display: inline-block;
+  object-fit: contain;
 }
 
-input {
-  width: 20%;
-  padding: 10px 10px;
-  margin: 4px 0;
-  box-sizing: border-box;
+#flexContactMe {
+  width: 50%;
 }
 
-button {
-  width: 10%;
-  padding: 12px 10px;
-  margin: 12px 0;
+/* Style inputs with type="text", select elements and textareas */
+#flexContactMe form {
+  width: 80%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+input[type=text],
+select,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
   box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: var(--mainColor);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(164, 127, 76);
 }
