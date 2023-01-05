@@ -6,7 +6,7 @@ This project is about building a portfolio page, which I can add to as the cours
 So far I have only one deployed web application, so for now that it will be the one who has a working link. Hopefully I will have more deployed projects in the next weeks.
 I will put on practice some skills I’ve recently learned, like flexbox, girds, media queries and CSS variables.
 
-Here is a link to the deployed application: https://mchinojo.github.io/Day8ChallengePortfolio/
+Here is a link to the deployed application: https://mchinojo.github.io/Challenge2-My-Portfolio/
 
 
 ## Installation
